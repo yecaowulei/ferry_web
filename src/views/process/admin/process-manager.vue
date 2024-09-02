@@ -135,8 +135,9 @@
             <el-row>
               <el-col :span="12">
                 <el-form-item label="通知">
-                  <el-select v-model="ruleForm.notice" multiple filterable clearable placeholder="请选择流程任务" style="width: 100%">
+                  <el-select v-model="ruleForm.notice" multiple filterable clearable placeholder="请选择通知方式" style="width: 100%">
                     <el-option label="邮件" :value="1" />
+                    <el-option label="企微" :value="2" />
                   </el-select>
                 </el-form-item>
               </el-col>
