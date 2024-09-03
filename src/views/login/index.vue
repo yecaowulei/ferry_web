@@ -91,7 +91,7 @@
               </div>
             </template>
             <div prop="code" style="width: 100%;float: left;margin-bottom: 13px">
-              <el-checkbox v-model="isLdapTmp">LDAP登陆</el-checkbox>
+              <el-checkbox v-model="isLdapTmp">LDAP登录</el-checkbox>
             </div>
             <el-button :loading="loading" type="primary" style="width:100%;padding:12px 20px;margin-bottom:30px;" @click.native.prevent="handleLogin">
               <span v-if="!loading">登 录</span>
